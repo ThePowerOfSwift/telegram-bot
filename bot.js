@@ -1,4 +1,4 @@
-var token = '<token-from-bot-father>';
+var token = process.env.TOKEN_FROM_BOT_FATHER;
 
 var Bot = require('node-telegram-bot-api'),
     bot = new Bot(token, { polling: true });
